@@ -1,3 +1,4 @@
+package sample01;
 public class HairAirConditioner implements AirConditioner
 {
 	public void changeTemperature()

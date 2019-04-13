@@ -1,3 +1,5 @@
+package sample01;
+
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
@@ -5,7 +7,7 @@ import java.io.*;
 public class XMLUtil
 {
 //该方法用于从XML配置文件中提取具体类类名，并返回一个实例对象
-	public static Object getBean()
+	public static Object getBean(String className)
 	{
 		try
 		{
@@ -13,10 +15,10 @@ public class XMLUtil
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			Document doc;							
-			doc = builder.parse(new File("config.xml")); 
+			doc = builder.parse(new File("./sample01/config.xml"));
 		
 			//获取包含类名的文本节点
-			NodeList nl = doc.getElementsByTagName("className");
+			NodeList nl = doc.getElementsByTagName(className);
             Node classNode=nl.item(0).getFirstChild();
             String cName=classNode.getNodeValue();
             

@@ -1,3 +1,5 @@
+package sample02;
+
 public class UserFactory
 {
 	public static User getUser(int permission)

@@ -1,3 +1,5 @@
+package sample02;
+
 public class Client
 {
 	public static void main(String args[])
@@ -7,7 +9,7 @@ public class Client
          	User user;
          	UserDAO userDao=new UserDAO();
          	int permission=userDao.findPermission("zhangsan","123456");
-         	user=UserFactory.getUser(permission);
+         	user= UserFactory.getUser(permission);
          	user.sameOperation();
          	user.diffOperation();
          }

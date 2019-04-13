@@ -1,3 +1,5 @@
+package sample02;
+
 public class Employee extends User
 {
 	public Employee()

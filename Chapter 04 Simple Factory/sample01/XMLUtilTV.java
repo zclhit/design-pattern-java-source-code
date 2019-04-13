@@ -1,6 +1,6 @@
+package sample01;
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
-import org.xml.sax.SAXException;
 import java.io.*;
 public class XMLUtilTV
 {
@@ -13,7 +13,7 @@ public class XMLUtilTV
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			Document doc;							
-			doc = builder.parse(new File("configTV.xml")); 
+			doc = builder.parse(new File("sample01/configTV.xml"));
 		
 			//获取包含品牌名称的文本节点
 			NodeList nl = doc.getElementsByTagName("brandName");

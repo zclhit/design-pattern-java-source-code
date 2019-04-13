@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <config>
-	<className>HaierTVFactory</className>
+	<className>sample01.HaierTVFactory</className>
+	<ImageReaderFactory>sample01.project.GifImageReaderFactory</ImageReaderFactory>
 </config>

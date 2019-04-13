@@ -1,3 +1,4 @@
+package sample01;
 public interface EFactory
 {
 	public Television produceTelevision();

@@ -1,3 +1,4 @@
+package sample01;
 public class HisenseTVFactory implements TVFactory
 {
     public TV produceTV()

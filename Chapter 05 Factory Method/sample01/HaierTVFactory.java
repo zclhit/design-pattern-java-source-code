@@ -1,3 +1,5 @@
+package sample01;
+
 public class HaierTVFactory implements TVFactory
 {
     public TV produceTV()

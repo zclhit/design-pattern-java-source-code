@@ -1,3 +1,5 @@
+package sample02;
+
 public class Administrator extends User
 {
 	public Administrator()

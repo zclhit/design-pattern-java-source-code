@@ -1,3 +1,4 @@
+package sample01;
 public class TCLFactory implements EFactory
 {
 	public Television produceTelevision()

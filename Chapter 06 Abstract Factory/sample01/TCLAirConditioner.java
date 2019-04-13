@@ -1,3 +1,4 @@
+package sample01;
 public class TCLAirConditioner implements AirConditioner
 {
 	public void changeTemperature()

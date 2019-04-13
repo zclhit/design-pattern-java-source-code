@@ -1,3 +1,5 @@
+package sample02;
+
 public class UserDAO
 {
     public int findPermission(String userName,String userPassword)

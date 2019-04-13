@@ -1,3 +1,5 @@
+package sample01;
+
 public class Client
 {
 	public static void main(String args[])
@@ -6,7 +8,7 @@ public class Client
          {
          	TV tv;
          	TVFactory factory;
-         	factory=(TVFactory)XMLUtil.getBean();
+         	factory=(TVFactory)XMLUtil.getBean("className");
          	tv=factory.produceTV();
          	tv.play();
          }

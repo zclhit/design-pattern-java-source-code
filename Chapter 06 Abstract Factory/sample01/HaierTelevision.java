@@ -1,3 +1,4 @@
+package sample01;
 public class HaierTelevision implements Television
 {
 	public void play()
